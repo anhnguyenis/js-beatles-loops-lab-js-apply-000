@@ -17,3 +17,11 @@ while (i < facts.length) {newFacts.push(facts[i] +"!!!"); i++;
 }
 return newFacts;
 }
+
+function iLoveTheBeatles(number) {
+var beatle = [];
+do {beatle.push("I love the Beatles!");number++;
+} 
+while (number < 15);
+return beatle;
+}
